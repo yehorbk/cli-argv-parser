@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node demo.js",
-    "test": "node ./tests/parser.test.js"
+    "test": "node ./tests/parser.test.js",
+    "eslint": "eslint --ext .js,.jsx,.ts,.tsx ./"
   },
   "repository": {
     "type": "git",
@@ -31,5 +32,12 @@
   "bugs": {
     "url": "https://github.com/yehorbk/cli-argv-parser/issues"
   },
-  "homepage": "https://github.com/yehorbk/cli-argv-parser#readme"
+  "homepage": "https://github.com/yehorbk/cli-argv-parser#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3"
+  }
 }
