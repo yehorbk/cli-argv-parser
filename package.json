@@ -1,6 +1,6 @@
 {
   "name": "cli-argv-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library that allows to parse command line arguments into hash-table or object by scheme",
   "main": "cli-argv-parser.js",
   "directories": {
