@@ -1,0 +1,27 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "airbnb"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "rules": {
+        "strict": "off",
+        "guard-for-in": "off",
+        "no-restricted-syntax": "off",
+        "no-plusplus": "off",
+        "no-param-reassign": "warn",
+        "object-curly-newline": "warn",
+        "quote-props": "off"
+    }
+}
