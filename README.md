@@ -1,5 +1,10 @@
 # Command Line Argumets Parser
 A library that allows to parse command line arguments into hash-table or object by scheme.
+# Installation
+Install library to your project:
+```
+$ npm install cli-argv-parser
+```
 # How to use
 You able to put only arguments array to parser and it will be return a hash-table (key-value).
 But if you want to parse arguments into object - use template scheme with keys and required types. 
