@@ -1,0 +1,35 @@
+{
+  "name": "cli-argv-parser",
+  "version": "1.0.0",
+  "description": "A library that allows to parse command line arguments into hash-table or object by scheme",
+  "main": "cli-argv-parser.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node demo.js",
+    "test": "node ./tests/parser.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yehorbk/cli-argv-parser.git"
+  },
+  "keywords": [
+    "javascript",
+    "cli",
+    "command-line",
+    "arguments",
+    "arguments-parser",
+    "arguments-parsing",
+    "parser",
+    "parser-library",
+    "library"
+  ],
+  "author": "Yehor Bublyk <e.bublyk1010@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yehorbk/cli-argv-parser/issues"
+  },
+  "homepage": "https://github.com/yehorbk/cli-argv-parser#readme"
+}
